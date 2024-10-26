@@ -1,0 +1,114 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Exercício 1 */
+body.exercicio1 {
+    background-image: url('floresa.png'); /* Insira o caminho da sua imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto padrão */
+    height: 100vh; /* Altura do body ocupa toda a altura da janela */
+}
+
+h1 {
+    background-color: red;
+    border: 2px solid green;
+    padding: 10px;
+    text-align: center; /* Centraliza o texto no cabeçalho */
+    margin: 20px; /* Margem para dar espaço ao redor do h1 */
+}
+
+
+/* Estilo global */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os elementos horizontalmente */
+}
+
+.div-vermelho {
+    background-color: red; /* Fundo vermelho */
+    width: 700px; /* Largura de 700px */
+    height: 200px; /* Altura definida para visualizar o DIV */
+    margin: 20px auto; /* Centraliza o DIV vermelho com margem em cima e embaixo */
+    padding: 0; /* Padding de 0 conforme solicitado */
+}
+
+.div-verde {
+    background-color: green; /* Fundo verde */
+    width: 700px; /* Largura de 700px */
+    padding: 25px; /* Padding de 25px */
+    margin: 20px auto; /* Centraliza o DIV verde com margem em cima e embaixo */
+    height: 200px; /* Altura definida para visualizar o DIV */
+}
+
+
+
+/* Exercício 3 */
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão para o corpo */
+}
+
+/* Exercício 3 */
+p {
+    text-decoration: underline; /* Texto sublinhado */
+    font-family: Arial, sans-serif; /* Fonte Arial para o parágrafo */
+}
+
+a {
+    text-decoration: none; /* Remove sublinhado dos hyperlinks */
+    font-weight: bold; /* Aplica negrito */
+    font-family: 'Times New Roman', serif; /* Fonte para os hyperlinks */
+    margin: 0 10px; /* Espaçamento entre os links */
+}
+
+
+/* Exercício 4 */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os DIVs se ajustem em várias linhas, se necessário */
+    justify-content: center; /* Centraliza os DIVs horizontalmente */
+    margin: 20px 0; /* Margem em cima e embaixo da lista de produtos */
+}
+
+.produto {
+    background-color: green;
+    width: 200px;
+    margin: 10px; /* Espaçamento entre os produtos */
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    clear: both; /* Limpa flutuação dos DIVs */
+}
